@@ -11,7 +11,7 @@ public class Monitor {
         idMonitor = ++contadorMonitores;
     }
 
-    public Monitor(String marca, Double tamanio){
+    public Monitor(String marca, double tamanio){
         this(); //Llamamos al constructor
         this.marca = marca;
         this.tamanio = tamanio;
